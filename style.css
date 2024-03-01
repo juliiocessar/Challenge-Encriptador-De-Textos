@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: rgba(243, 245, 252, 1);
+
+}
+
+.contenedor-general{
+  width: 1200px;
+  height: 1000px;
+  margin: 0.5em auto;
+  padding: 0.5em;
+}
+
+.div-header{
+  margin: 0.4em;
+}
+
+.div-contenido{
+  float: left;
+  width: 50%;
+  text-align: center;
+  margin: 1em;
+  margin-left: 5em;
+}
+
+.input-texto{
+  width: 600px;
+  height: 350px;
+  margin: 0.5em;
+  background-color:rgba(243, 245, 252, 1);
+  resize: none;
+  border-radius: 20px;
+  font-size: 25px;
+  padding: 12px 12px;
+  color:#0A3871;
+}
+
+.input-texto::placeholder{
+  color:#0A3871;
+} 
+
+.div-alerta{
+  margin: 0.4em;
+}
+
+
+.div-botones{
+  width: 680px;
+  height: 67px;
+  gap: 24px;
+  text-align: center;
+
+}
+
+.btn1{
+  background-color: rgba(10, 56, 113, 1);
+  outline: none;
+  width: 300px;
+  height: 60px;
+  border-radius: 24px;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 0.5em;
+
+}
+
+.btn2{
+  background: rgba(216, 223, 232, 1);
+  outline: none;
+  width: 300px;
+  height: 60px;
+  border-radius: 24px;
+  border: 1px solid rgba(10, 56, 113, 1);
+  margin-bottom: 0.5em;
+
+}
+
+
+.div-resultado{
+  float: right;
+  width: 40%;
+  height: 100%;
+  text-align: center;
+  margin: 1em;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 1);
+
+}
+
+.resultado{
+  resize: none;
+  background-image: url(Muñeco.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0.5em;
+  width: 400px;
+  height: 335px;
+  border-radius: 20px;
+  margin-right: 5em;
+  text-align: center;
+  border: none;
+  font-size: 25px;
+  padding: 12px 12px;
+  color:#0A3871;
+}
+
+
+
+.div-parrafo{
+  margin: 0.5em;
+  margin-top: 0.4em;
+}
+
+.div-btncopiar{
+  margin: 0.5em;
+}
+
+.btn3{
+  background: rgba(216, 223, 232, 1);
+  outline: none;
+  width: 300px;
+  height: 60px;
+  border-radius: 24px;
+  border: 1px solid rgba(10, 56, 113, 1);
+  
+
+}
+
